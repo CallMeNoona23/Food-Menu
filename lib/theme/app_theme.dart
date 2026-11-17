@@ -22,7 +22,6 @@ class AppTheme {
         primary: primaryLight,
         secondary: secondaryLight,
         surface: surfaceLight,
-        background: backgroundLight,
         onPrimary: Colors.white,
         onSurface: Color(0xFF212121),
       ),
@@ -41,7 +40,7 @@ class AppTheme {
           color: Colors.white,
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: surfaceLight,
         elevation: 3,
         shadowColor: Colors.black26,
@@ -106,7 +105,6 @@ class AppTheme {
         primary: primaryDark,
         secondary: secondaryDark,
         surface: surfaceDark,
-        background: backgroundDark,
         onPrimary: Colors.white,
         onSurface: Color(0xFFE0E0E0),
       ),
@@ -125,7 +123,7 @@ class AppTheme {
           color: Colors.white,
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: const Color(0xFF2A2A2A),
         elevation: 4,
         shadowColor: Colors.black54,
