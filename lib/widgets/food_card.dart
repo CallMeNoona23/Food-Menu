@@ -70,7 +70,7 @@ class FoodCard extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                     decoration: BoxDecoration(
-                      color: Colors.black.withOpacity(0.7),
+                      color: const Color(0xB3000000),
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Row(
